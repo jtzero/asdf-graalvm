@@ -100,9 +100,9 @@ download_url() {
     local java_version=$(echo $version | cut -f2 -d-)
     echo "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${graalvm_version}/graalvm-ce-${java_version}-${variant}-${graalvm_version}.tar.gz"
   elif version_is_one $version; then
-    echo "https://github.com/oracle/graal/releases/download/vm-${version}/graalvm-ce-${version}-${variant}.tar.gz"
+    echo "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${version}/graalvm-ce-${version}-${variant}.tar.gz"
   else
-    echo "https://github.com/oracle/graal/releases/download/vm-${version}/graalvm-ce-${variant}-${version}.tar.gz"
+    echo "https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${version}/graalvm-ce-${variant}-${version}.tar.gz"
   fi
 }
 
