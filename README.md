@@ -1,5 +1,7 @@
 # asdf-graalvm
 
+https://github.com/halcyon/asdf-java can now download graalvm, use that instead
+
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/vic/asdf-graalvm/plugin-test?style=flat-square)](https://github.com/vic/asdf-graalvm/actions)
 
 [GraalVM](https://www.graalvm.org/) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
